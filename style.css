@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 760;
+    font-size: 20px;
+    display: flex;
+    margin-top: 3px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px; 
+    
+}
+.menu {
+    
+    color: #292929;
+    text-decoration: none;
+    margin-left: 72px;
+    
+     
+}
+.sign_in {
+    margin-left: 120px;
+    margin-right: 70px;
+    
+}
+.logo {
+        margin-right:10px;
+        margin-left: 180px;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color:#292929;
+    margin-left: 72px;
+}
+.sign_in li a {
+    text-decoration: none;
+    color:#292929;
+    
+    
+}
+ul, li, a {
+    display: flex;
+    padding:0;
+    list-style-type: none;   /*реально убирает отступы */
+    
+}
+ .button_1 {
+    margin-right: 20px;
+    
+    
+}
+.button_decor {
+    font-weight: 20px;
+    list-style-type: none;
+    color: #fff; 
+    text-decoration: none;
+    background: #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding:10px 50px 10px 50px;
+    display:inline-block; 
+    
+}
+
+.container_girl {
+    background: url(../alivio/img/BG.jpg) no-repeat center top/cover; ;
+    margin:0;
+    padding:0;
+    
+
+}
+.girl_image_text h1 {
+   padding-top: 175px;
+   padding-left:180px;
+   font-size: 65px;
+   width: 440px;
+   color: #01996D;
+   font-family: Georgia;
+   margin:0;
+
+}
+.girl_image_text p {
+    padding-left:180px;
+    padding-top: 30px;
+    font-weight: 780;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #484848;
+    margin:0;
+}
+.button_2 {
+    color: #fff;
+    font-size:20px;
+    text-decoration: none;
+    margin-top: 53px;
+    margin-left: 180px;
+    margin-bottom: 210px;
+    font-weight: 760;
+    font-family: 'Lato', sans-serif;
+    background: #01996D;
+    border-radius: 4px;
+    padding:10px 50px 10px 50px;
+    display:inline-block;    /*кнопка занимает ширину контента */
+    
+}
+a.button_decor:hover { background: rgb(48, 199, 236); }
+a.button_decor:active {
+  background: rgb(53, 197, 216);
+}
+a.button_2:hover { background: rgb(48, 199, 236); }
+a.button_2:active {
+  background: rgb(53, 197, 216);
+}
+
+.head{
+    max-width: 90%;
+    
+}
+
+/* контент */
+.content {
+    margin:0;
+    padding:0;
+    max-width: 93%;
+}
+.how_it_works {
+    padding-top: 140px;
+    padding-left: 180px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color:#292929;
+    font-weight: 760;
+    font-size: 20px;
+    
+}
+.content h1 {
+    padding-left: 180px;
+    padding-top:4px;
+    font-size: 50px;
+    width: 586px;
+    color: #01996D;
+    font-family: Georgia;   
+    margin: 0;
+    line-height: 157%;
+}
+.head_content p {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color:#292929;
+    font-weight: 760;
+    font-size: 20px;
+    padding-left:60px;
+    text-align: left;
+    line-height: 150%;
+    
+}
+.head_content {
+    display: flex;
+    flex-direction: row;
+}
+.pictures {
+    margin:0;
+    padding: 0;
+    display: flex;
+    max-width: 93%;
+}
+.picture_1 {
+    max-width: 390px;
+    padding-left: 180px;
+    padding-top: 56px;
+}
+.step_1_heading {
+    position:relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color:black;
+    margin: 0;
+    padding-top: 135px;
+    padding-left:88px
+}
+.step_1_heading::before {
+    content: attr(data-number); 
+    /* это наша 01 по факту, как атрибут */
+    color: rgba(1, 153, 109, 0.2);
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    position:absolute;
+    top: 0;
+    left:0;
+}
+.step_1_text,.step_2_text, .step_3_text {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif; 
+    color:#292929;
+    font-weight: 760;
+    padding-top: 10px;
+    text-align: left;
+}
+.step_1_img,.step_2_img,.step_3_img {
+    
+    width:90%;
+    /* это 90 от всей ширины карточки у нас 390px*/
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.picture_2 {
+    max-width: 390px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 170px;
+}
+.step_2_heading {
+    position:relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color:black;
+    margin: 0;
+    padding-top: 210px;
+    padding-left: 78px;
+   
+}
+.step_2_heading::before {
+    content: attr(data-number-2); 
+    /* это наша 01 по факту, как атрибут */
+    color: rgba(1, 153, 109, 0.2);
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    position:absolute;
+    top:0;
+    left:0;
+    padding-top: 70px;
+}
+
+.picture_3 {
+    max-width: 390px;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+.step_3_heading {
+    position:relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color:black;
+    margin: 0;
+    padding-top: 150px;
+    padding-left:110px
+}
+.step_3_heading::before {
+    content: attr(data-number-3); 
+    /* это наша 01 по факту, как атрибут */
+    color: rgba(1, 153, 109, 0.2);
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    position:absolute;
+    top: 0;
+    left:0;
+}
+.success_story {
+    width:100%;
+    background: #245852;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.text_container {
+    margin:0;
+    padding:0;
+}
+.success {
+    display: flex;
+}
+.success_heading {
+    padding-top: 180px;
+    padding-left: 180px;
+    width: 500px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+}
+.success_text {
+    padding-top: 5px;
+    padding-left:180px;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+    margin:0;
+    
+
+}
+.success_button{
+    color: #fff;
+    font-size:20px;
+    text-decoration: none;
+    margin-top: 53px;
+    margin-left: 180px;
+    font-weight: 760;
+    font-family: 'Lato', sans-serif;
+    background: #01996D;
+    border-radius: 4px;
+    padding:10px 40px 10px 40px;
+    display:inline-block; 
+    margin-top: 40px;
+    margin-bottom:180px;
+}
+a.success_button:hover { background: rgb(48, 199, 236); }
+
+.glass_girl {
+   padding-top: 190px;
+   padding-left: 150px;
+   
+}
+.glass_girl_img {
+    border-radius: 15px;
+}
+
+
+/* product content */
+
+
+.product {
+    margin:0;
+    padding:0;
+}
+.container {
+    padding-top: 80px;
+    padding-left: 200px;
+    display: flex;
+}
+.product_img {
+    max-width:530px;
+}
+.card {
+    position:absolute;
+    border-radius: 20px;
+}
+.white_girl_img {
+    position:relative;
+    top: 140px;
+    right:10px;
+    border-radius: 18px;
+   
+}
+.product_content {
+    padding-left: 130px;
+    
+}
+.product_content h2 {
+    padding-top: 140px;
+    font-family:'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+    margin:0;
+}
+.product_content h1 {
+    font-family: 'Georgia';
+    font-weight: 580;
+    color:#01996D;
+    line-height: 157%;
+    font-size: 50px;
+    margin:0;
+    padding-top: 15px;
+}
+.product_content p {
+    font-family:'Lato', sans-serif;
+    line-height: 31px;
+    color: #484848;
+    font-size: 25px;
+    font-weight: 600;
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.product_button {
+    color: #fff;
+    font-size:20px;
+    text-decoration: none;
+    margin-bottom: 210px;
+    font-weight: 760;
+    font-family: 'Lato', sans-serif;
+    background: #01996D;
+    border-radius: 4px;
+    padding:15px 60px 15px 60px;
+    display:inline-block;    /*кнопка занимает ширину контента */
+    
+}
+a.product_button:hover { background: rgb(48, 199, 236); }
+a.product_button:active {
+  background: rgb(53, 197, 216);
+} 
+
+.footer {
+    background-color:#01996D ;
+    color: #fff;
+    font-size:35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:0;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
